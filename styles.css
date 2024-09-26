@@ -1,0 +1,106 @@
+/* Custom Card Styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+}
+
+.card-header img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Enhanced Navbar Styling */
+.navbar {
+    padding: 0.25rem 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+.nav-link {
+    color: #fff !important;
+    padding: 0.25rem 0.5rem;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+    border: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    font-size: 16px;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Adjust navbar toggler icon color */
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40; /* Match with your footer background color */
+    color: #fff; /* Match with your footer text color */
+    text-align: center;
+    padding: 0.1rem;
+}
+
